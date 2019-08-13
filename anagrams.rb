@@ -91,4 +91,4 @@ p third_anagram?(partial_alpha.join, partial_alpha.shuffle.join) #=> true
 p Time.now - t1
 
 # time complexity: O(n) => 2 + n (each_char) + n (each_char) + num_uniq_chars_in_alpha ( == )
-# space complexity: O(1)
+# space complexity: O(1) because bounded by the number of unique chars in the alphabet
