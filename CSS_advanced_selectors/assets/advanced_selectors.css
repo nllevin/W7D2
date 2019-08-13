@@ -43,4 +43,45 @@ ol {
   font-weight: bold;
 }
 
+input[type="radio"] {
+    cursor: pointer;
+    outline: none;
+    -webkit-appearance: none;
+    background-image: url(./stars.png);
+    height: 27px;
+    width: 27px;
+    vertical-align: bottom;
+}
 
+input[type="radio"]:hover {
+  background-position: 30px 60px;
+}
+
+input[type="radio"]:checked {
+  background-position: 30px 30px;
+}
+
+select {
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    outline: none;
+}
+
+form input:last-child {
+    background-color: gold;
+}
+
+form input:last-child:hover {-webkit-filter: brightness(70%);}
+
+ol li:nth-of-type(2n + 1) {
+    background-color: lightgrey;
+}
+
+
+h2 + div.user_review {
+  border-top: 1px solid black;
+}
